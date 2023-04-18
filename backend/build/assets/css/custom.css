@@ -1,0 +1,192 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+/*---------------loading button----------------------*/
+
+.loader-text {
+  display:inline-block !important;
+  width: 20px !important;
+	height:20px !important;
+	border-left: 2px solid transparent !important;
+	border-right: 2px solid transparent !important;
+	border-bottom: 2px solid #e7e2e2 !important;
+  border-top: 2px solid #e7e2e2 !important;
+  -webkit-animation: loader-text 1.8s ease-in-out infinite alternate !important;
+  animation: loader-text 1.8s ease-in-out infinite alternate !important;
+}
+.btn-spinner.loader-text.text-primary {
+  text-align: center !important;
+  margin: -5px !important;
+}
+.loader-text:before {
+  content: " " !important;
+  position: absolute !important;
+  z-index: -1 !important;
+  top: 5px !important;
+  left: 0px!important;
+  right: 0px!important;
+  bottom: 5px!important;
+  border-left: 2px solid #e7e2e2!important;
+  border-right: 2px solid #e7e2e2!important; 
+}
+
+@keyframes loader-text {
+   from {transform: rotate(0deg);}
+   to {transform: rotate(720deg);}
+}
+@-webkit-keyframes loader-text {
+   from {-webkit-transform: rotate(0deg);}
+   to {-webkit-transform: rotate(720deg);}
+}
+
+/*--------------- End loading button----------------------*/
+
+span.dropdown-item.has-icon.text-danger.logout-span {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 0.6 !important;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.errorMessage{
+    color: #d41515;
+}
+.close-img-item {
+  margin-left: 12px;
+}
+.image-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
+}
+.image-item-event{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 62%;
+  padding: 12px;
+}
+.img-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 15%; */
+}
+.image-box{
+  justify-content:center;
+}
+.main-loader {
+  display: flex;
+  justify-content: center;
+}
+.col-md-2.select-box-size select.form-control {
+  border-radius: 0px;
+  height: 38px;
+  padding-top: 7px;
+}
+.input-group.search-bar input.form-control {
+  border-radius: 0px !important;
+  height: 38px !important;
+  padding-top: 7px;
+}
+.input-group-append {
+  margin-left: 1px;
+  margin-top: -1px;
+}
+.col-md-2.main-btn-box a.btn.btn-primary.btn-sm.float-right {
+    height: 35px !important;
+    padding-top: 4px !important;
+}
+img.img-size {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+}
+img.img-box-details {
+  height: 170px;
+  width: 160px;
+  padding: 10px;
+}
+.lable-design {
+  margin-left: 15px !important;
+  font-weight: 500;
+  color: #34395e;
+  font-size: 14px;
+}
+.main-sidebar-logo{
+    width: 70px;
+    margin: 10px 0px 60px;
+}
+.ck.ck-editor__editable_inline{
+  height:300px !important
+}
+.card-body.cms-body {
+  padding-top: 0px;
+}
+footer.main-footer {
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  /* position: fixed; */
+}
+.form-group.col-md-1.add-more-btn {
+  margin-top: 30px;
+  margin-left: -16px;
+}
+.form-group.col-md-1.remove-more-btn {
+  margin-top: 30px;
+}
+.row.time-seat {
+  margin-left: 0px !important;
+}
+.profile-widget .profile-widget-description .profile-widget-name.booking{
+  margin-bottom: 0px !important;
+}
+.profile-widget.booking{
+    margin-top: 0px !important;
+}
+.exp_time {
+  margin: 3px;
+}
+@media only screen and (max-width: 767px) {
+  .card-body{
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+  }
+  footer.main-footer {
+    left: 0;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+.card-body.booking-list {
+  overflow-y: scroll;
+}
+.table td{
+  padding: 10px !important;;
+}
+
+
+/* Rounded sliders */
+.slider_1.round {
+  border-radius: 34px;
+}
+
+.slider_1.round:before {
+  border-radius: 50%;
+}
+.fileContainer .chooseFileButton{
+      background: none !important;
+      border-radius: 0px !important;
+}
+.fileContainer{
+  display:block !important
+}
